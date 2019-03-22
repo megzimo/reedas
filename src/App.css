@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Reenie+Beanie|Rock+Salt|Sedgwick+Ave|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway');
+/* Fonts for Header */
+
+
+.App {
+  /* background-size: cover; */
+}
+
+#main-div {
+  background-image: url("https://cdn01-www-kingsford-com.scdn4.secure.raxcdn.com/wp-content/uploads/2014/12/kfd-howtosmokebrisket-Brisket5_0267-1024x621.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+#landing-name {
+  font-family: 'Permanent Marker', cursive;
+  color: #ffffff;
+  font-size: 145px;
+  display: flex;
+  justify-content: center;
+  padding-top: 35vh;
+  text-shadow: 10px 15px 15px #000;
+}
+
+.navbar{
+  background-color: rgb(56,38,24);
+  box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.carousel{
+  padding: 1rem;
+}
+
+a{
+  color: #B95A53 !important;
+  font-family: "Architects Daughter";
+
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  margin-left: 13%;
+  margin-right: 13%;
+  /* margin-top: 1%; */
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.315);
+  border-radius: 7px;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  font-family: "Architects Daughter";
+  color: #3364AA;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#msg{
+  text-align: center;
+}
+
+#contact-submit{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #ccb0a9;
+  border: none;
+  margin: 2%;
+  border-radius: 15px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+form, label{
+  width: 100% !important;
+}
+
+.carousel-inner img{
+  width: 50%;
+}
+
+#demo{
+  text-align: center
+}
+
+.logo a {
+  height: 90px;
+  background: yellow;
+  border-radius: 0 0 40px 40px;
+}
+
+.logo  {
+color: #B95A53
+}
+
+.logo{
+  height: 60px;
+}
+
+#menu-div, .gallery-div, .contact-div{
+background-image: url(./images/wood.jpg);
+height: -webkit-fill-available;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.gallery-div{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-div{
+  padding-bottom: 5%;
+}
+
+.menu-container{
+  justify-items: center;
+  background-color: rgba(56, 38, 24, .7);
+  padding: 3.5%;
+  border-radius: 31px;
+  font-family: "Sedgwick Ave", cursive;
+  color: white;
+  margin-top: 5%;
+}
+
+#menu-list{
+  display: flex;
+  justify-content: center
+}
+
+.header{
+  padding-bottom: .2rem;
+  font-size: 1.6rem;
+  color: #9CCBF6;
+}
+
+#core{
+  color: #9CCBF6;
+}
+
+hr{
+  border-top: 0.5px solid #9CCBF6 !important;
+}
+
+.items{
+  margin-left: 1.5rem;
+  font-family: "Raleway";
+}
+
+.effect8{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#items-price{
+  text-align: justify;
+  text-justify: inter-word;
+}
